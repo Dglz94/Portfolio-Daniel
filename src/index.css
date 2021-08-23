@@ -9,3 +9,25 @@ html,
   margin: 0;
   padding: 0;
 }
+
+:root {
+  /* COLORS */
+  --main: #ffffff;
+  --title: #2b6684;
+  --icon-nav: #112c3a;
+  --letters: #1c2127;
+  --orange: #c4762a;
+  --blue: #3d677b;
+  --yellow: #c28f48;
+  --red: #9a4832;
+  --green: #666b3a;
+  --react: #61dbfb;
+  --javaScript: #f0db4f;
+  --html: #f16529;
+  --css: #264de4;
+  /*Effects*/
+  --flatBg: var(--ffffff);
+  --flatShadow: 7px 7px 14px #a6a6a6, -7px -7px 14px #ffffff;
+  --pressedBg: var(--main);
+  --pressedShadow: inset 7px 7px 14px #a6a6a6, inset -7px -7px 14px #ffffff;
+}
