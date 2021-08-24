@@ -17,6 +17,11 @@
   display: flex;
 }
 
+.nav-item:hover {
+  background: var(--pressedBg);
+  box-shadow: var(--pressedShadow);
+}
+
 .nav-icon {
   display: flex;
   font-size: 30px;
@@ -25,10 +30,6 @@
 
 .nav-logo {
   font-size: 30px;
-}
-
-.responsive {
-  grid-template-rows: 10% 90%;
 }
 
 .responsive .nav-item,

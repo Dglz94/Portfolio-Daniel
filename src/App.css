@@ -1,6 +1,8 @@
 .App {
   width: 100%;
+  min-width: 280px;
   height: 100%;
+  min-height: 650px;
   display: grid;
   grid-template-columns: 20% 80%;
   grid-template-rows: 1fr;
@@ -41,27 +43,7 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-}
-
-.cuadro {
-  width: 50%;
-  height: 50%;
-}
-
-.cuadro1 {
-  background-color: red;
-}
-
-.cuadro2 {
-  background-color: blue;
-}
-
-.cuadro3 {
-  background-color: green;
-}
-
-.cuadro4 {
-  background-color: purple;
+  overflow-x: scroll;
 }
 
 @media screen and (max-width: 768px) {
@@ -72,6 +54,7 @@ main {
 
   nav {
     grid-column: 1;
+    height: calc(100% - 10px);
     grid-row: 1;
   }
 
@@ -92,5 +75,4 @@ main {
     width: 100%;
     height: 25%;
   }
-  
 }
