@@ -28,6 +28,7 @@
   width: 50px;
   height: 50px;
   display: flex;
+  color: var(--title);
 }
 
 .social-icon {
@@ -39,8 +40,8 @@
 }
 
 .social-link:hover {
-  border: 1px solid red;
-  color: red;
+  border: 1px solid var(--orange);
+  color: var(--orange);
 }
 
 .made-by {
@@ -48,6 +49,10 @@
   justify-content: center;
   align-items: center;
   width: 33%;
+}
+
+.made-by-text {
+  font-weight: 400;
 }
 
 .made-by-icon {

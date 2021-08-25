@@ -1,47 +1,23 @@
+.skills-container,
+.skills {
+  width: calc(100% - 20px);
+  height: calc(100% - 30px);
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .skills-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
-    width: 95%;
-    margin: auto;
-    height: calc(90% - 10px);
-    grid-row: 2 / 4;
+  margin: 20px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-container {
+    height: 100%;
+    margin: 0 auto;
   }
-  
-  .skills {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
-    width: 95%;
-    height: 90%;
-  }
-
-  
-@media screen and (max-width: 769px) {
-
-    .skill-box {
-        width: 30%;
-        height: 45%;
-      }
-      
-      .skills {
-        justify-content: space-around;
-        align-content: stretch;
-        height: 95%; 
-      }
-
-      .skills-container{
-          height: 45%;
-      }
-
-      .skill-content {
-        margin-top: 60%;
-      }
-    
 }

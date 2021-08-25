@@ -35,13 +35,15 @@ export default function ProfileContainer({ language }) {
           <p className="location-text-extra">Torreon Coahuila Mexico</p>
         </div>
       </div>
-      <div className="about flat">
-        <div className="about-container pressed">
-          <h1 className="title">{profile.aboutMe}</h1>
-          <p className="letters">{profile.about}</p>
+      <div className="about-skills">
+        <div className="about flat">
+          <div className="about-container pressed">
+            <h1 className="title">{profile.aboutMe}</h1>
+            <p className="letters">{profile.about}</p>
+          </div>
         </div>
+        <SkillsContainer language={language} />
       </div>
-      <SkillsContainer language={language}/>
     </div>
   );
 }

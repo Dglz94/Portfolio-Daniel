@@ -40,10 +40,10 @@ main {
   height: calc(100% - 30px);
   width: calc(100% - 20px);
   border-radius: 15px 15px 0 0;
-  display: flex;
+  display: grid;
   flex-direction: column;
   flex-wrap: wrap;
-  overflow-x: scroll;
+  overflow-y: auto;
 }
 
 @media screen and (max-width: 768px) {
@@ -76,3 +76,4 @@ main {
     height: 25%;
   }
 }
+

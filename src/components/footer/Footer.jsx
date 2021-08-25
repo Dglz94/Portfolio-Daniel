@@ -28,7 +28,7 @@ export default function Footer({ language, setLanguage }) {
         </label>
       </div>
       <div className="made-by">
-        <h3>Made by Daniel Glz.</h3>
+        <h3 className="made-by-text">Made by Daniel Glz.</h3>
         <div className="made-by-icon">{icons.footer.chill}</div>
       </div>
     </div>

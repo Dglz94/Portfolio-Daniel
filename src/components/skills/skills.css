@@ -1,12 +1,12 @@
-
 .skill-box {
   position: relative;
-  width: 30%;
-  height: 40%;
-  float: left;
-  box-sizing: border-box;
+  width: 45%;
+  height: 30%;
   overflow: hidden;
   border-radius: 10px;
+  display: grid;
+  grid-template-rows: 25% 25% 50%;
+  margin: auto;
 }
 
 .skill-icon-box {
@@ -21,38 +21,25 @@
 }
 
 .skill-box:hover .skill-icon-box {
-  top: 5px;
-  left: calc(35%);
-  width: 30%;
-  height: 30%;
+  top: 8px;
+  left: 70%;
+  width: 25%;
+  height: 20%;
   border-radius: 50%;
+  grid-row: 1;
 }
 
-.skill-content {
-  margin-top: 35%;
-  font-size: 60%;
-  display: inline;
-  text-align: center;
-  box-sizing: border-box;
-  transition: 0.5s;
-  opacity: 0;
-  overflow: hidden;
-  display: none;
+.skill-title{
+  grid-row: 2;
+  padding: 5px;
+  font-size: 12px;
 }
 
-.skill-box:hover .skill-content {
-  left: 20%;
-  opacity: 1;
-  display: block;
-}
-
-.skill-content h3 {
-  padding: 0;
-  font-size: 15px;
-}
-
-.skill-content p {
-  width: 100%;
+.skill-description {
+  margin: 0 auto;
+  grid-row: 3;
+  padding: 0 5px;
+  font-size: 10px;
 }
 
 .skill-icon {
@@ -65,7 +52,7 @@
 }
 
 .skill-box:hover .skill-icon {
-    font-size: 25px;
+  font-size: 18px;
 }
 
 .skill-icon {

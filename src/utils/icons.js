@@ -13,6 +13,11 @@ import {
   FaFolderOpen,
   FaDownload,
   FaRegEye,
+  FaUserCheck,
+  FaComments,
+  FaUserFriends,
+  FaWrench,
+  FaChild
 } from "react-icons/fa";
 
 const icons = {
@@ -31,6 +36,11 @@ const icons = {
   },
   skills: {
     autodidact: <FaBook className="skill-icon"></FaBook>,
+    etic: <FaUserCheck className="skill-icon"></FaUserCheck>,
+    team: <FaUserFriends className="skill-icon"></FaUserFriends>,
+    communication: <FaComments className="skill-icon"></FaComments>,
+    problem: <FaWrench className="skill-icon"></FaWrench>,
+    lider: <FaChild className="skill-icon"></FaChild>
   },
   profile: {
     location: <FaLocationArrow className="location-icon" />,

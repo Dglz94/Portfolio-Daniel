@@ -7,36 +7,36 @@ const content = {
     skills: [
       {
         skill: "Autodidact",
-        icon: "book",
+        icon: "autodidact",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, necessitatibus provident. Sunt.",
         color: "var(--yellow)",
       },
       {
         skill: "Team working",
-        icon: "book",
+        icon: "team",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, necessitatibus provident. Sunt.",
         color: "var(--icon-nav)",
       },
       {
         skill: "Lider",
-        icon: "book",
+        icon: "lider",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, necessitatibus provident. Sunt.",
         color: "var(--red)",
       },
       {
         skill: "Problem Resolution",
-        icon: "book",
+        icon: "problem",
         description:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, necessitatibus provident. Sunt.",
+          "I always try to take the best decision analyzing all possible result, based for the good of the society and company.",
 
         color: "var(--blue)",
       },
       {
         skill: "Good Communication",
-        icon: "book",
+        icon: "communication",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, necessitatibus provident. Sunt.",
 
@@ -44,7 +44,7 @@ const content = {
       },
       {
         skill: "Etic",
-        icon: "book",
+        icon: "etic",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, necessitatibus provident. Sunt.",
         color: "var(--orange)",
@@ -59,28 +59,28 @@ const content = {
     skills: [
       {
         skill: "Autodidacta",
-        icon: "book",
+        icon: "autodidact",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, necessitatibus provident. Sunt.",
         color: "var(--yellow)",
       },
       {
         skill: "Trabajo en Equipo",
-        icon: "book",
+        icon: "team",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, necessitatibus provident. Sunt.",
         color: "var(--icon-nav)",
       },
       {
         skill: "Lider",
-        icon: "book",
+        icon: "lider",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, necessitatibus provident. Sunt.",
         color: "var(--red)",
       },
       {
         skill: "Resolucion de problemas",
-        icon: "book",
+        icon: "problem",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, necessitatibus provident. Sunt.",
 
@@ -88,7 +88,7 @@ const content = {
       },
       {
         skill: "Buena comunicacion",
-        icon: "book",
+        icon: "communication",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, necessitatibus provident. Sunt.",
 
@@ -96,7 +96,7 @@ const content = {
       },
       {
         skill: "Etico",
-        icon: "book",
+        icon: "etic",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, necessitatibus provident. Sunt.",
         color: "var(--orange)",

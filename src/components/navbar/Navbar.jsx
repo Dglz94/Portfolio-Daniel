@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 import "./navbar.css";
 //Icons
 import icons from "../../utils/icons";
@@ -21,19 +23,21 @@ export default function Navbar() {
 
   return (
     <div className="nav-container pressed">
-      <div className="nav-item flat">
+      <Link className="nav-item flat" to={"/"}>
         <div className="nav-icon">{icons.nav.profile}</div>
-      </div>
-      <div className="nav-item flat">
+      </Link>
+      <Link className="nav-item flat" to={"/experience"}>
         <div className="nav-icon">{icons.nav.experience}</div>
-      </div>
-      <div className="nav-item flat">
+      </Link>
+      <Link className="nav-item flat" to={"/repositories"}>
         <div className="nav-icon">{icons.nav.repositories}</div>
-      </div>
-      <div className="nav-item flat">
+      </Link>
+      <Link className="nav-item flat" to={"/contact"}>
         <div className="nav-icon">{icons.nav.contact}</div>
+      </Link>
+      <div className="nav-logo">
+        {"<"}DGG{"/>"}
       </div>
-      <div className="nav-logo">DGG</div>
       <div className="close" onClick={() => openNav()}>
         {open ? icons.nav.down : icons.nav.up}
       </div>
