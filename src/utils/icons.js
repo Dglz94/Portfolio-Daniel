@@ -17,7 +17,8 @@ import {
   FaComments,
   FaUserFriends,
   FaWrench,
-  FaChild
+  FaChild,
+  FaStream,
 } from "react-icons/fa";
 
 const icons = {
@@ -40,13 +41,16 @@ const icons = {
     team: <FaUserFriends className="skill-icon"></FaUserFriends>,
     communication: <FaComments className="skill-icon"></FaComments>,
     problem: <FaWrench className="skill-icon"></FaWrench>,
-    lider: <FaChild className="skill-icon"></FaChild>
+    lider: <FaChild className="skill-icon"></FaChild>,
   },
   profile: {
     location: <FaLocationArrow className="location-icon" />,
     pdf: <FaFilePdf className="location-icon" />,
     view: <FaRegEye className="pdf-icon-view" />,
     download: <FaDownload className="pdf-icon-download" />,
+  },
+  arcade: {
+    list: <FaStream className="game-img" />,
   },
 };
 

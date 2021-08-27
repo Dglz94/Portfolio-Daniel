@@ -1,0 +1,38 @@
+.language-container {
+  display: flex;
+  margin: 20px auto;
+  width: calc(100% - 20px);
+  height: 200px;
+}
+
+.language-margin {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+}
+
+.language h1 {
+  margin: auto;
+  font-size: 14px;
+}
+
+.language h2 {
+  margin: auto;
+}
+
+.language-circle {
+  display: flex;
+  margin: auto;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border: 1px solid var(--yellow);
+}

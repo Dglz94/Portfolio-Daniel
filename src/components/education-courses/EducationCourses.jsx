@@ -8,35 +8,35 @@ export default function EducationCourses() {
   return (
     <div className="education-container flat">
       <div className="education-margin pressed">
-        <h1>
-          <button>{"<"}</button>Education<button>{">"}</button>
-        </h1>
-        <div className="education-title">
+        <div className="education-title pressed">
           <h3 className="selected">Education</h3>/<h3 className="">Courses</h3>
         </div>
-        <div className="education">
-          <h1>ITESM</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint
-            minus, minima mollitia provident repudiandae natus!
-          </p>
-          <img class="education-img" src={itesm} />
+        <div className="education flat">
+          <div className="education-img">
+            <img src={itesm} />
+          </div>
+          <div className="education-content">
+            <h3>ITESM</h3>
+            <p> Ingeneria en tecnologias de la informacion y comunicacion</p>
+          </div>
         </div>
-        <div className="education">
-          <h1>University of hull</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint
-            minus, minima mollitia provident repudiandae natus!
-          </p>
-          <img class="education-img" src={hull} />
+        <div className="education flat">
+          <div className="education-img">
+            <img src={itesm} />
+          </div>
+          <div className="education-content">
+            <h3>ITESM</h3>
+            <p> Ingeneria en tecnologias de la informacion y comunicacion</p>
+          </div>
         </div>
-        <div className="education">
-          <h1>St Giles International</h1>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint
-            minus, minima mollitia provident repudiandae natus!
-          </p>
-          <img class="education-img" src={stgiles} />
+        <div className="education flat">
+          <div className="education-img">
+            <img src={itesm} />
+          </div>
+          <div className="education-content">
+            <h3>ITESM</h3>
+            <p> Ingeneria en tecnologias de la informacion y comunicacion</p>
+          </div>
         </div>
       </div>
     </div>

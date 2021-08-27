@@ -9,6 +9,7 @@ import ProfileContainer from "./containers/profileContainer/ProfileContainer";
 import RepositoriesContainer from "./containers/repositoriesContainer/RepositoriesContainer";
 import ContactContainer from "./containers/contactContainer/ContactContainer";
 import ExperienceContainer from "./containers/experienceContainer/ExperienceContainer";
+import ArcadeContainer from "./containers/arcadeContainer/Arcade";
 
 function App() {
   const [language, setLanguage] = useState("Eng");
@@ -32,7 +33,8 @@ function App() {
                 <ExperienceContainer />
               </Route>
               <Route path="/contact">
-                <ContactContainer />
+                <ArcadeContainer />
+                {/* <ContactContainer /> */}
               </Route>
             </Switch>
           </div>

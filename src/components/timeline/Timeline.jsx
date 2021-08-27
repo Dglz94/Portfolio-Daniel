@@ -10,7 +10,7 @@ export default function Timeline() {
       <div className="timeline-margin pressed">
         <div className="timeline-item">
           <img
-            className="timeline-img border-orange"
+            className="timeline-img border-orange flat"
             src={microsip}
             alt="chubb"
           />
@@ -26,7 +26,7 @@ export default function Timeline() {
         </div>
         <div className="timeline-item">
           <img
-            className="timeline-img chubb border-green right"
+            className="timeline-img chubb border-green right flat"
             src={microsip}
             alt="chubb"
           />
@@ -41,7 +41,7 @@ export default function Timeline() {
           </div>
         </div>
         <div className="timeline-item">
-          <img className="timeline-img border-red" src={farmacias} alt="chubb" />
+          <img className="timeline-img border-red flat" src={farmacias} alt="chubb" />
           <div className="timeline"></div>
           <div className="timeline-box-red border-red right">
             <h3 className="timeline-year">2019-2020</h3>

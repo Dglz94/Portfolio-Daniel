@@ -1,0 +1,86 @@
+.tech-container {
+  margin: auto;
+  height: 200px;
+  width: calc(100% - 20px);
+  display: flex;
+}
+
+.tech-margin {
+  display: flex;
+  margin: auto;
+  height: calc(100% - 20px);
+  width: calc(100% - 20px);
+  position: relative;
+  overflow: hidden;
+}
+
+.tech {
+  margin: auto;
+  width: 25%;
+  height: 40%;
+  border-radius: 50%;
+  display: flex;
+}
+
+.tech-img {
+  margin: auto;
+  height: 35px;
+  width: 35px;
+}
+
+.tech-first {
+  width: 90%;
+  height: 100%;
+  left: -100%;
+  position: absolute;
+  display: flex;
+  transition: all 3s ease;
+}
+
+.tech-middle {
+  width: 90%;
+  position: absolute;
+  height: 100%;
+  left: 12px;
+  transition: all 3s ease;
+  display: flex;
+}
+
+.tech-last {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  right: -100%;
+  display: flex;
+}
+
+.btn-first {
+  height: 100%;
+  left: 0px;
+  position: absolute;
+}
+
+.btn-last {
+  right: 0px;
+  height: 100%;
+  position: absolute;
+}
+
+.goLeft {
+  transform: translate(-500px);
+}
+
+.goRight {
+  transform: translateX(300px);
+}
+
+.goCenterLast {
+  transform: translateX(-254px);
+}
+
+.goCenterFirst {
+  transform: translateX(254px);
+}
+
+.blocked {
+}
