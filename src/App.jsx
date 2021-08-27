@@ -7,8 +7,8 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import ProfileContainer from "./containers/profileContainer/ProfileContainer";
 import RepositoriesContainer from "./containers/repositoriesContainer/RepositoriesContainer";
-import ContactContainer from "./containers/contactContainer/contactContainer";
-
+import ContactContainer from "./containers/contactContainer/ContactContainer";
+import ExperienceContainer from "./containers/experienceContainer/ExperienceContainer";
 
 function App() {
   const [language, setLanguage] = useState("Eng");
@@ -27,6 +27,9 @@ function App() {
               </Route>
               <Route path="/repositories">
                 <RepositoriesContainer />
+              </Route>
+              <Route path="/experience">
+                <ExperienceContainer />
               </Route>
               <Route path="/contact">
                 <ContactContainer />
