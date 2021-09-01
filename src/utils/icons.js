@@ -14,13 +14,19 @@ import {
   FaDownload,
   FaRegEye,
   FaUserCheck,
+  FaEllipsisH,
   FaComments,
   FaUserFriends,
+  FaCode,
   FaWrench,
   FaChild,
   FaStream,
+  FaGamepad,
+  FaThLarge,
+  FaThList,
+  FaTh,
 } from "react-icons/fa";
-
+import { CgCardSpades } from "react-icons/cg";
 const icons = {
   nav: {
     down: <FaAngleDown className="nav-resp " />,
@@ -29,6 +35,7 @@ const icons = {
     contact: <FaEnvelope className="nav-icon red" />,
     experience: <FaBrain className="nav-icon yellow" />,
     repositories: <FaFolderOpen className="nav-icon green" />,
+    arcade: <FaGamepad className="nav-icon green" />,
   },
   footer: {
     linkedIn: <FaLinkedin />,
@@ -51,6 +58,14 @@ const icons = {
   },
   arcade: {
     list: <FaStream className="game-img" />,
+    card: <CgCardSpades className="game-img" />,
+  },
+  repos: {
+    big: <FaThLarge className="repo-panel-btn" />,
+    small: <FaTh className="repo-panel-btn" />,
+    medium: <FaThList className="repo-panel-btn" />,
+    code: <FaCode className="repo-btn" />,
+    extra: <FaEllipsisH className="repo-btn" />,
   },
 };
 

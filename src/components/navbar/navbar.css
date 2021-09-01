@@ -32,7 +32,6 @@
   font-size: 30px;
 }
 
-
 .responsive .nav-item,
 .responsive .nav-logo {
   display: none;
@@ -47,14 +46,14 @@
     flex-direction: row;
   }
   .nav-item {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     margin: 10px;
     padding: 5px;
   }
 
   .nav-icon {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .nav-logo {
@@ -66,3 +65,11 @@
   }
 }
 
+@media screen and (max-width: 370px) {
+  .nav-item {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    padding: 5px;
+  }
+}

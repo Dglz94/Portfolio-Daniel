@@ -10,6 +10,12 @@ import RepositoriesContainer from "./containers/repositoriesContainer/Repositori
 import ContactContainer from "./containers/contactContainer/ContactContainer";
 import ExperienceContainer from "./containers/experienceContainer/ExperienceContainer";
 import ArcadeContainer from "./containers/arcadeContainer/Arcade";
+import PdfViewer from "./components/pdfViewer/PdfViewer";
+
+//CV-PDF
+import pdfEng from './Daniel Gonzalez ITIC  (CV) INGLES.pdf';
+import pdfEsp from './Daniel Gonzalez ITIC (CV) ESPAÑOL.pdf';
+
 
 function App() {
   const [language, setLanguage] = useState("Eng");
@@ -33,8 +39,14 @@ function App() {
                 <ExperienceContainer />
               </Route>
               <Route path="/contact">
+                {/* <ArcadeContainer /> */}
+                <ContactContainer />
+              </Route>
+              <Route path="/arcade">
                 <ArcadeContainer />
-                {/* <ContactContainer /> */}
+              </Route>
+              <Route path="/pdf-cv">
+                <PdfViewer pdf={language === "Eng" ? pdfEng : pdfEsp}/>
               </Route>
             </Switch>
           </div>

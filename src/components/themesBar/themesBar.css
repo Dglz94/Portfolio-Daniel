@@ -1,0 +1,17 @@
+.arcade-themes {
+  border-radius: 20px;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  background-color: white;
+  display: flex;
+  margin: 10px auto;
+  overflow-x: auto;
+}
+
+.theme {
+  width: 100px;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  border: 1px solid black;
+}

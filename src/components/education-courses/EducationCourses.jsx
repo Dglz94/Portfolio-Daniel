@@ -22,7 +22,7 @@ export default function EducationCourses() {
         </div>
         <div className="education flat">
           <div className="education-img">
-            <img src={itesm} />
+            <img src={hull} />
           </div>
           <div className="education-content">
             <h3>ITESM</h3>
@@ -31,7 +31,7 @@ export default function EducationCourses() {
         </div>
         <div className="education flat">
           <div className="education-img">
-            <img src={itesm} />
+            <img src={stgiles} />
           </div>
           <div className="education-content">
             <h3>ITESM</h3>

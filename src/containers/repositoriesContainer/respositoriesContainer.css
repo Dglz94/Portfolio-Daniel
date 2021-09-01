@@ -3,12 +3,12 @@
   flex-direction: row;
   height: 100%;
   overflow: hidden;
+  flex-direction: column;
 }
 
 .repos {
-  width: calc(80% - 20px);
-  height: 90%;
-
+  width: calc(100% - 20px);
+  height: 100%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -16,7 +16,6 @@
   align-items: stretch;
   overflow: hidden;
   overflow-y: auto;
-  scrollbar-width: 1px;
 }
 
 .repo-techs {
@@ -38,66 +37,49 @@
   border: 1px solid black;
 }
 
-.repo {
-  width: 30%;
-  height: 35%;
-  margin: 10px;
+.filter {
+  width: calc(100% - 20px);
+  height: calc(20% - 30px);
   display: flex;
+  margin: 10px auto;
   flex-direction: column;
 }
 
-.repo:hover {
+.repo-panel-buttons {
+  display: flex;
+  color: white;
+  height: 90%;
+  width: 90%;
+  margin: 10px auto;
+  border: 1px solid var(--title);
+  border-radius: 50px;
+  background-color: var(--blue);
+}
+
+.repo-panel-btns:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.repo-panel-btns:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.repo-panel-btns {
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+}
+
+.active-btn {
+  background-color: white;
+  color: var(--title);
   background: var(--pressedBg);
   box-shadow: var(--pressedShadow);
 }
 
-.repo:hover > .repo-techs .img-tech {
-  left: 0;
-  position: relative;
-  transition: all 0.6s ease;
-}
-
-.repo-name {
-  text-align: center;
-  font-size: 22px;
-}
-
-.repo-link {
-  font-size: 12px;
-  font-style: italic;
-  color: grey;
-  text-align: center;
-}
-
-.repo-description {
-  font-size: 10px;
-  text-align: center;
-  padding: 10px;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-}
-
-.repo-btn-code {
-  width: 35%;
-  border-radius: 25px;
-  margin: 10px auto;
-  background-color: transparent;
-  border: 1px solid var(--title);
-  color: var(--title);
-}
-.repo-btn-code:hover {
-  background-color: var(--title);
-  border: 1px solid none;
-  color: #ffff;
-}
-
-.filter {
-  width: calc(20% - 60px);
-  height: calc(100% - 30px);
-  display: flex;
+.repo-panel-btn{
   margin: auto;
-  border: 1px solid black;
-  flex-direction: column;
 }
+

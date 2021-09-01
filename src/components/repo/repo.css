@@ -1,0 +1,84 @@
+.repo-sm {
+    width: calc(35% - 10px);
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.repo-md {
+    width: calc(100% - 10px);
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.repo-lg {
+  width: calc(50% - 10px);
+  height: calc(50% - 10px);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 10px auto;
+}
+
+.selected {
+    background-color: red;
+}
+
+.repo-name {
+  text-align: center;
+  font-size: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: var(--title);
+  color: white;
+  grid-row: 1;
+}
+
+
+
+.repo-link {
+  font-size: 12px;
+  font-style: italic;
+  color: grey;
+  text-align: center;
+  grid-row: 2;
+}
+
+.repo-description {
+  font-size: 10px;
+  text-align: center;
+  padding: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.repo-btns {
+  grid-row: 3;
+  display: flex;
+  color: gray;
+  width: 100%;
+}
+
+.repo-btn-code {
+  width: 50%;
+  background-color: transparent;
+  border: 1px solid gray;
+  border-left: 0px;
+  border-bottom: 0px;
+}
+
+.repo-btn-extra {
+  background-color: transparent;
+  width: 50%;
+  border: 1px solid gray;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+.repo-btn-code:hover {
+  background-color: var(--title);
+  border: 1px solid none;
+  color: #ffff;
+}

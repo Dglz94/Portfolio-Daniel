@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import {Link} from 'react-router-dom';
 import "./profileContainer.css";
 //Icons
 import icons from "../../utils/icons";
@@ -28,7 +29,7 @@ export default function ProfileContainer({ language }) {
         <div className="pdf title pressed">
           {icons.profile.pdf}
           {icons.profile.download}
-          {icons.profile.view}
+          <Link className="pdf-viewer" to={"/pdf-cv"}>{icons.profile.view}</Link>
         </div>
         <div className="loc title pressed">
           {icons.profile.location}

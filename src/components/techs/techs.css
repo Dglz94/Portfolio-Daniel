@@ -1,6 +1,6 @@
 .tech-container {
   margin: auto;
-  height: 200px;
+  height: 180px;
   width: calc(100% - 20px);
   display: flex;
 }

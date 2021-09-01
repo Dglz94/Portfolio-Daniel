@@ -19,7 +19,7 @@
 }
 
 nav {
-  height: calc(100% - 30px);
+  height: calc(100vh - 30px);
   width: calc(100% - 20px);
   margin: auto;
   grid-column: 1;
@@ -28,7 +28,7 @@ nav {
 
 main {
   margin: auto;
-  height: calc(100% - 30px);
+  height: calc(100vh - 30px);
   width: calc(100% - 20px);
   display: grid;
   grid-template-columns: 1fr;

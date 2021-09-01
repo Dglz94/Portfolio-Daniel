@@ -165,7 +165,8 @@
 }
 
 .about-container p {
-  padding: 20px;
+  padding: 5px;
+  margin-bottom: 25px;
   font-size: 80%;
 }
 
@@ -177,7 +178,6 @@
     grid-template-rows: 50% 20% 30%;
     overflow: hidden;
   }
-
   .profile-img {
     grid-column: 1;
     grid-row: 1;
@@ -220,14 +220,20 @@
     height: 100%;
     width: 95%;
   }
+  .about-skills {
+    display: grid;
+    grid-template-rows: 35% 65%;
+  }
 
   .about {
-    height: 60%;
+    grid-row: 1;
+    height: 90%;
   }
 
   .about-container h1 {
     padding: 5px;
     margin: 0 auto;
+    font-size: 150%;
   }
 
   .about-container p {

@@ -35,6 +35,9 @@ export default function Navbar() {
       <Link className="nav-item flat" to={"/contact"}>
         <div className="nav-icon">{icons.nav.contact}</div>
       </Link>
+      {/* <Link className="nav-item flat" to={"/arcade"}>
+        <div className="nav-icon">{icons.nav.arcade}</div>
+      </Link> */}
       <div className="nav-logo">
         {"<"}DGG{"/>"}
       </div>

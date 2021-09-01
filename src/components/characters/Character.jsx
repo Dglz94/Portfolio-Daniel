@@ -7,7 +7,9 @@ export default function Character({ character, theme }) {
     } else if (theme === "got") {
       return character.imageUrl;
     } else if (theme === "disney") {
-      return character.sourceUrl;
+      return character.imageUrl;
+    } else if( theme === "rickMorty"){
+      return character.image;
     }
   };
   console.log(character)

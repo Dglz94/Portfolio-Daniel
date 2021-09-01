@@ -1,0 +1,42 @@
+.react-pdf__Page {
+  width: 100%;
+}
+
+.react-pdf__Page__canvas {
+  margin: 10px auto;
+  width: 90% !important;
+  height: 100% !important;
+}
+
+.pdf-container {
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .react-pdf__Page__canvas {
+    margin: 0 auto;
+  }
+  .pdf-container,
+  .react-pdf__Document {
+    margin: 10px auto;
+  }
+  .react-pdf__Page {
+   height: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+    .react-pdf__Page__canvas {
+        margin: 0 auto;
+      }
+      .pdf-container,
+      .react-pdf__Document {
+        margin: 10px auto;
+        width: 500px !important;
+        height: 1000px;
+      }
+      .react-pdf__Page {
+       height: 100%;
+      }
+}
+

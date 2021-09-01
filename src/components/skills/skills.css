@@ -29,7 +29,7 @@
   grid-row: 1;
 }
 
-.skill-title{
+.skill-title {
   grid-row: 2;
   padding: 5px;
   font-size: 12px;
@@ -57,4 +57,22 @@
 
 .skill-icon {
   font-size: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .skill-box {
+    width: 50%;
+    height: 33%;
+  }
+  .skill-box:hover .skill-icon-box {
+    top: 8px;
+    left: 70%;
+    width: 20%;
+    height: 30%;
+    border-radius: 50%;
+    grid-row: 1;
+  }
+  .skill-box:hover .skill-icon {
+    font-size: 17px;
+  }
 }
