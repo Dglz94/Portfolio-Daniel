@@ -24,14 +24,18 @@
   position: relative;
 }
 
-.timeline {
+.timeline-orange,
+.timeline-green,
+.timeline-red {
   width: 100%;
   height: 100%;
   position: relative;
   background-color: gray;
 }
 
-.timeline::after {
+.timeline-red::after,
+.timeline-orange::after,
+.timeline-green::after {
   content: " ";
   position: absolute;
   width: 30px;
@@ -41,6 +45,28 @@
   border-radius: 50%;
   background-color: gray;
   z-index: 1;
+}
+
+.timeline-orange::before,
+.timeline-green::before,
+.timeline-red::before {
+  content: " ";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  z-index: 2;
+  top: 95%;
+  left: -4.5px;
+}
+.timeline-orange::before{
+  background-color: var(--orange);
+}
+.timeline-red::before{
+  background-color: var(--red);
+}
+.timeline-green::before{
+  background-color: var(--green);
 }
 
 .right {
@@ -65,7 +91,7 @@
   margin: auto;
 }
 
-.timeline-box-orange {
+.timeline-box-left {
   position: relative;
   margin-top: 20px;
   width: 80%;
@@ -76,63 +102,15 @@
   background-color: var(--main);
 }
 
-.timeline-box-orange::before {
-  content: " ";
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  top: 97%;
-  left: -23%;
-  border-radius: 50%;
-  z-index: 1;
-  background-color: var(--orange);
-}
-
-.timeline-box-green {
+.timeline-box-right {
   position: relative;
   margin-top: 20px;
   width: 80%;
-  border-bottom: 4px solid;
   border-left: 4px solid;
-  height: 85%;
-  margin-left: 14%;
-  background-color: var(--main);
-}
-
-.timeline-box-green::before {
-  content: " ";
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  top: 96%;
-  left: 99%;
-  border-radius: 50%;
-  background-color: var(--green);
-  z-index: 12;
-}
-
-.timeline-box-red {
-  position: relative;
-  margin-top: 20px;
-  width: 80%;
   border-bottom: 4px solid;
-  border-right: 4px solid;
-  height: 85%;
-  margin-left: 11%;
+  margin-left: 5%;
   z-index: 12;
   background-color: var(--main);
-}
-
-.timeline-box-red::before {
-  content: " ";
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  top: 96%;
-  left: -24%;
-  border-radius: 50%;
-  z-index: 1;
-  background-color: var(--red);
 }
 
 .border-orange {
@@ -148,10 +126,17 @@
   border-color: var(--red);
 }
 
-.timeline-year {
-  padding-left: 0px;
+.timeline-year-left {
   color: var(--title);
   background-color: transparent;
+  width: max-content;
+}
+
+.timeline-year-right {
+  padding-left: 5px;
+  color: var(--title);
+  background-color: transparent;
+  width: max-content;
 }
 
 .timeline-desc {
@@ -159,3 +144,4 @@
   font-size: 8px;
   z-index: 20;
 }
+

@@ -25,6 +25,7 @@ import {
   FaThLarge,
   FaThList,
   FaTh,
+  FaArrowLeft,
 } from "react-icons/fa";
 import { CgCardSpades } from "react-icons/cg";
 const icons = {
@@ -66,6 +67,9 @@ const icons = {
     medium: <FaThList className="repo-panel-btn" />,
     code: <FaCode className="repo-btn" />,
     extra: <FaEllipsisH className="repo-btn" />,
+  },
+  pdf: {
+    return: <FaArrowLeft className="pdf-btn-return" />,
   },
 };
 

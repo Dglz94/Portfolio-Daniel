@@ -9,7 +9,7 @@ export default function EducationCourses() {
     <div className="education-container flat">
       <div className="education-margin pressed">
         <div className="education-title pressed">
-          <h3 className="selected">Education</h3>/<h3 className="">Courses</h3>
+          <h3>Education</h3>/<h3 className="">Courses</h3>
         </div>
         <div className="education flat">
           <div className="education-img">

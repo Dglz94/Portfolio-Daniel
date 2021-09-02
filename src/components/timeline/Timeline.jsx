@@ -14,9 +14,9 @@ export default function Timeline() {
             src={microsip}
             alt="chubb"
           />
-          <div className="timeline bg-org"></div>
-          <div className="timeline-box-orange border-orange right">
-            <h3 className="timeline-year">2019-2020</h3>
+          <div className="timeline-orange"></div>
+          <div className="timeline-box-left border-orange right">
+            <h3 className="timeline-year-left">2019-2020</h3>
             <p className="timeline-desc border-orange">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consequatur, tempora harum laudantium nihil quo dolores
@@ -30,9 +30,9 @@ export default function Timeline() {
             src={microsip}
             alt="chubb"
           />
-          <div className="timeline"></div>
-          <div className="timeline-box-green border-green left">
-            <h3 className="timeline-year">2019-2020</h3>
+          <div className="timeline-green"></div>
+          <div className="timeline-box-right border-green left">
+            <h3 className="timeline-year-right">2019-2020</h3>
             <p className="timeline-desc border-green">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consequatur, tempora harum laudantium nihil quo dolores
@@ -41,10 +41,14 @@ export default function Timeline() {
           </div>
         </div>
         <div className="timeline-item">
-          <img className="timeline-img border-red flat" src={farmacias} alt="chubb" />
-          <div className="timeline"></div>
-          <div className="timeline-box-red border-red right">
-            <h3 className="timeline-year">2019-2020</h3>
+          <img
+            className="timeline-img border-red flat"
+            src={farmacias}
+            alt="chubb"
+          />
+          <div className="timeline-red"></div>
+          <div className="timeline-box-left border-red right">
+            <h3 className="timeline-year-left">2019-2020</h3>
             <p className="timeline-desc border-red">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consequatur, tempora harum laudantium nihil quo dolores

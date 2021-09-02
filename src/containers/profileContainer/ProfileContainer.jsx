@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 import "./profileContainer.css";
 //Icons
 import icons from "../../utils/icons";
@@ -8,6 +8,9 @@ import emoji from "../../resources/img/emoji.png";
 import SkillsContainer from "../skillsContainer/SkillsContainer";
 //Content
 import content from "../../utils/content";
+
+//Pdf
+import pdfEng from '../../Daniel Gonzalez ITIC  (CV) INGLES.pdf';
 
 export default function ProfileContainer({ language }) {
   const profile = language === "Eng" ? content.contentEng : content.contentEsp;
@@ -28,8 +31,12 @@ export default function ProfileContainer({ language }) {
       <div className="profile-loc-pdf">
         <div className="pdf title pressed">
           {icons.profile.pdf}
-          {icons.profile.download}
-          <Link className="pdf-viewer" to={"/pdf-cv"}>{icons.profile.view}</Link>
+          <a href={pdfEng}>
+            {icons.profile.download}
+          </a>
+          <Link className="pdf-viewer" to={"/pdf-cv"}>
+            {icons.profile.view}
+          </Link>
         </div>
         <div className="loc title pressed">
           {icons.profile.location}
